@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 @import './mixins';
 @import './var';
 @import '../components/Radio/radio-component.styles.scss';
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 *,
 *::before,
@@ -9,6 +10,10 @@
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 body {
   width: 100vw;

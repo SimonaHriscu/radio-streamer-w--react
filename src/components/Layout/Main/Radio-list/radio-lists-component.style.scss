@@ -11,7 +11,7 @@
 }
 
 .radio-lists-component-extended {
-  @include aligned-central;
+  @include horizontal-align;
   list-style: none;
   height: 12vh;
   margin: 0 1vw;
@@ -19,6 +19,8 @@
   img {
     width: 30%;
     border-radius: 50%;
+  }
+  .volume-icons {
   }
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const RadioChannel = (props) => {
   return (
@@ -17,7 +18,9 @@ const RadioChannel = (props) => {
         </React.Fragment>
       ) : (
         <React.Fragment>
+          <FontAwesomeIcon icon="minus" className="volume-icon" />
           <img src={props.image}></img>
+          <FontAwesomeIcon icon="plus" className="volume-icon" />
         </React.Fragment>
       )}
     </li>

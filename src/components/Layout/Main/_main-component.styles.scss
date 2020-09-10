@@ -1,4 +1,5 @@
 .main-component {
   width: inherit;
-  height: fit-content;
+  height: 35vh;
+  @include vertical-channels-align;
 }

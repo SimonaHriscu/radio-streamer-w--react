@@ -1,0 +1,12 @@
+.radio-lists-component {
+  list-style: none;
+  @include horizontal-align;
+  height: 6vh;
+  margin: 0 1vw;
+  font-size: 1.5rem;
+  border-bottom: 0.1px solid $text-color;
+  color: $text-color;
+  :last-child {
+    font-weight: bold;
+  }
+}

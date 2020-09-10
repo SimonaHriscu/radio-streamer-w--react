@@ -15,4 +15,10 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@mixin vertical-channels-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 } ;

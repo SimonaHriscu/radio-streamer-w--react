@@ -1,5 +1,5 @@
 import React from 'react';
-import Radio from './components/radio.component';
+import Radio from './components/Radio/radio-component';
 const App = () => {
   return (
     <div className="App">

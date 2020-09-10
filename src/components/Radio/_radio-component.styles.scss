@@ -1,0 +1,29 @@
+@import '../scss/mixins';
+@import '../../scss/var';
+@import '../Layout/Header/header-component.styles';
+@import '../Layout/Main/main-component.styles';
+@import '../Layout/Footer/footer-component.styles';
+
+.radio-component {
+  width: 17vw;
+  height: 50vh;
+  border-radius: 25px;
+  background-color: $base-color;
+  -webkit-box-shadow: 0 24px 8px -6px #000000;
+  -moz-box-shadow: 0 24px 8px -6px #000000;
+  box-shadow: 0 24px 8px -6px #000000; //y x blur top
+  @include radio-layout;
+}
+
+@media (min-width: 768px) and(max-width:850px) {
+  .radio-component {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 767px) {
+  .radio-component {
+    width: 90vw;
+    height: 60vh;
+  }
+}

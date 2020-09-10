@@ -7,6 +7,8 @@ import axios from 'axios';
 export default class Radio extends Component {
   state = {
     channels: [],
+    currentIndex: 0,
+    name: null,
   };
   componentDidMount() {
     axios.get('https://teclead.de/recruiting/radios').then((response) => {
@@ -17,12 +19,24 @@ export default class Radio extends Component {
       });
     });
   }
+  updateEverythingHandler = (props) => {
+    console.log(props.id);
+    this.setState({ currentIndex: props.id });
+    // this.setState({ name: title });
+  };
   render() {
+    console.log(this.state.currentIndex);
     return (
       <div className="radio-component">
         <Header />
-        <Main channels={this.state.channels} />
-        <Footer />
+        <Main
+          channels={this.state.channels}
+          click={this.updateEverythingHandler}
+          index={this.state.currentIndex}
+        />
+        <Footer
+        // name={this.state.name}
+        />
       </div>
     );
   }

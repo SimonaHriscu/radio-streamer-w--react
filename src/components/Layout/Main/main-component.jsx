@@ -2,9 +2,19 @@ import React from 'react';
 import RadioChannel from './Radio-list/radio-lists-component';
 
 const Main = (props) => {
-  console.log(props.channels);
-  const radios = props.channels.map((radio) => {
-    return <RadioChannel name={radio.name} frequency={radio.frequency} />;
+  // console.log(props.click);
+  const radios = props.channels.map((radio, i) => {
+    return (
+      <RadioChannel
+        key={i}
+        id={i}
+        name={radio.name}
+        frequency={radio.frequency}
+        image={radio.image}
+        click={props.click}
+        currentIndex={props.index}
+      />
+    );
   });
   return (
     <div className="main-component">

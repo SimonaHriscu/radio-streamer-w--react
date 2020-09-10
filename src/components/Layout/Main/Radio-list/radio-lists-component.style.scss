@@ -10,3 +10,17 @@
     font-weight: bold;
   }
 }
+
+.radio-lists-component-extended {
+  list-style: none;
+  @include horizontal-align;
+  height: 10vh;
+  color: red;
+  margin: 0 1vw;
+  font-size: 1.5rem;
+  border-bottom: 0.1px solid $text-color;
+  color: $text-color;
+  :last-child {
+    font-weight: bold;
+  }
+}

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header-component">
       <FontAwesomeIcon icon="chevron-left" className="icon" />
-      <h1>stations</h1>
+      <h2>stations</h2>
       <FontAwesomeIcon icon="power-off" className="icon" />
     </div>
   );

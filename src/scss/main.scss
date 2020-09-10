@@ -1,5 +1,6 @@
 @import './mixins';
-@import '../components/radio.component.styles.scss';
+@import './var';
+@import '../components/Radio/radio-component.styles.scss';
 
 *,
 *::before,
@@ -11,7 +12,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: $base-color;
   @include aligned-central;
 
   .App {

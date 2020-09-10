@@ -16,6 +16,7 @@ body {
   background-color: $base-color;
   @include aligned-central;
   font-family: 'Roboto', sans-serif;
+  color: $text-color;
 
   .App {
     width: 70vw;

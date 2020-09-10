@@ -1,5 +1,8 @@
 .main-component {
   width: inherit;
-  height: 35vh;
-  @include vertical-channels-align;
+  height: 30vh;
+  ul {
+    @include vertical-channels-align;
+    height: 30vh;
+  }
 }

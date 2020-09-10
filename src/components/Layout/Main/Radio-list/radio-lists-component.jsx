@@ -1,25 +1,25 @@
 import React from 'react';
 
 const RadioChannel = (props) => {
-  //  console.log(props.id);
-  //  console.log(props.index);
-
   return (
     <li
       className={
-        props.id !== props.currentIndex
-          ? 'radio-lists-component'
-          : 'radio-lists-component-extended'
+        props.id === props.currentIndex
+          ? 'radio-lists-component-extended'
+          : 'radio-lists-component'
       }
       onClick={() => props.click(props)}
     >
-      <span>{props.name}</span>
-      <span>{props.frequency}</span>
-      {/* {className === 'radio-lists-component' ? (
-        <span>
+      {props.id !== props.currentIndex ? (
+        <React.Fragment>
+          <span>{props.name}</span>
+          <span>{props.frequency}</span>
+        </React.Fragment>
+      ) : (
+        <React.Fragment>
           <img src={props.image}></img>
-        </span>
-      ) : null} */}
+        </React.Fragment>
+      )}
     </li>
   );
 };

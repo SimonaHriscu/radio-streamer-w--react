@@ -4,7 +4,14 @@ const Footer = (props) => {
   console.log(props);
   return (
     <div className="footer-component">
-      <div>Now playing: {props.name}</div>
+      {props.showTitle === true ? (
+        <React.Fragment>
+          <p>Currently playing</p>
+          <p>{props.name}</p>
+        </React.Fragment>
+      ) : (
+        true
+      )}
     </div>
   );
 };

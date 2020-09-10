@@ -9,6 +9,7 @@ export default class Radio extends Component {
     channels: [],
     currentIndex: 0,
     name: null,
+    showTitle: false,
   };
   componentDidMount() {
     axios.get('https://teclead.de/recruiting/radios').then((response) => {
@@ -21,7 +22,11 @@ export default class Radio extends Component {
   }
   updateEverythingHandler = (props) => {
     console.log(props.id);
-    this.setState({ currentIndex: props.id });
+    this.setState({
+      currentIndex: props.id,
+      name: props.name,
+      showTitle: true,
+    });
     // this.setState({ name: title });
   };
   render() {
@@ -34,9 +39,7 @@ export default class Radio extends Component {
           click={this.updateEverythingHandler}
           index={this.state.currentIndex}
         />
-        <Footer
-        // name={this.state.name}
-        />
+        <Footer showTitle={this.state.showTitle} name={this.state.name} />
       </div>
     );
   }

@@ -7,7 +7,7 @@ const Main = (props) => {
     return (
       <RadioChannel
         key={i}
-        id={i}
+        id={i + 1}
         name={radio.name}
         frequency={radio.frequency}
         image={radio.image}

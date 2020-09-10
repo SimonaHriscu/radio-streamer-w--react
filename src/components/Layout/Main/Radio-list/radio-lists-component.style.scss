@@ -21,3 +21,17 @@
     border-radius: 50%;
   }
 }
+
+@media (max-width: 767px) {
+  .radio-lists-component {
+    height: inherit;
+  }
+  .radio-lists-component-extended {
+    height: 18vh;
+
+    img {
+      width: 30%;
+      margin: 1vh 0;
+    }
+  }
+}

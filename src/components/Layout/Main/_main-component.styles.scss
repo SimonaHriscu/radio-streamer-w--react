@@ -6,3 +6,12 @@
     height: 30vh;
   }
 }
+
+@media (max-width: 767px) {
+  .main-component {
+    height: 50vh;
+    ul {
+      height: 50vh;
+    }
+  }
+}

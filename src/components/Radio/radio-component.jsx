@@ -14,7 +14,6 @@ export default class Radio extends Component {
   componentDidMount() {
     axios.get('https://teclead.de/recruiting/radios').then((response) => {
       const radios = response.data.radios;
-      //console.log(radios);
       this.setState({
         channels: radios,
       });
@@ -27,7 +26,6 @@ export default class Radio extends Component {
       name: props.name,
       showTitle: true,
     });
-    // this.setState({ name: title });
   };
   render() {
     console.log(this.state.currentIndex);

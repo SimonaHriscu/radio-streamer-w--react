@@ -1,4 +1,14 @@
 .header-component {
   width: inherit;
-  height: fit-content;
+  height: 10vh;
+  @include horizontal-align;
+  background-color: $header-bg-color;
+  h1 {
+    text-transform: uppercase;
+    color: $h1-color;
+  }
+  .icon {
+    color: $h1-color;
+    font-size: 1.6em; //26px
+  }
 }

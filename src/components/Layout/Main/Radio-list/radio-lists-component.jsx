@@ -19,7 +19,7 @@ const RadioChannel = (props) => {
       ) : (
         <React.Fragment>
           <FontAwesomeIcon icon="minus" className="volume-icon" />
-          <img src={props.image}></img>
+          <img src={props.image} alt={props.name}></img>
           <FontAwesomeIcon icon="plus" className="volume-icon" />
         </React.Fragment>
       )}

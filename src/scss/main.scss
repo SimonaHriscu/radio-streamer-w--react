@@ -1,0 +1,22 @@
+@import './mixins';
+@import '../components/radio.component.styles.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  @include aligned-central;
+
+  .App {
+    width: 70vw;
+    height: 60vh;
+    @include aligned-central;
+  }
+}

@@ -1,4 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Radio streamer with React
+
+## Radio streamer webpage in react:
+
+- component structure;
+- HTTP Request to GET Data;
+- rendering Fetched Data to the Screen;
+- transforming Data;
+- dynamic change of classNames;
+- show/hide components on click;
+- fully responsive: desktop, tablet and mobile version
+- mixins and variables used in SCSS;
+- transitions.
+
+### Previews:
+
+### Desktop version:
+
+<img src="https://i.ibb.co/H4PQbJP/Screenshot-2020-09-10-Radio-pick.png" alt="desktop" border="0">
+
+### Tablet version:
+
+<img src="https://i.ibb.co/P6xYQZN/Screen-Shot-2020-09-10-at-19-53-07.png" alt="tablet" width="50%">
+
+### Mobile version:
+
+<img src="https://i.ibb.co/r26wH0v/Screenshot-2020-09-10-Radio-pick-1.png" alt="mobile" width="50%">
 
 ## Available Scripts
 

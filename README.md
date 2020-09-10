@@ -20,7 +20,7 @@
 
 ### Tablet version:
 
-<img src="https://i.ibb.co/P6xYQZN/Screen-Shot-2020-09-10-at-19-53-07.png" alt="tablet" width="50%">
+<img src="https://i.ibb.co/ZGdnWC3/Screen-Shot-2020-09-10-at-20-26-24.png" alt="tablet" width="50%">
 
 ### Mobile version:
 

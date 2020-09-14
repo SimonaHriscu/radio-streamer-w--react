@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/code-challenge-react/static/css/main.07c2af89.chunk.css",
-    "main.js": "/code-challenge-react/static/js/main.4faba915.chunk.js",
-    "main.js.map": "/code-challenge-react/static/js/main.4faba915.chunk.js.map",
-    "runtime-main.js": "/code-challenge-react/static/js/runtime-main.729d24c6.js",
-    "runtime-main.js.map": "/code-challenge-react/static/js/runtime-main.729d24c6.js.map",
-    "static/js/2.4e08c108.chunk.js": "/code-challenge-react/static/js/2.4e08c108.chunk.js",
-    "static/js/2.4e08c108.chunk.js.map": "/code-challenge-react/static/js/2.4e08c108.chunk.js.map",
-    "index.html": "/code-challenge-react/index.html",
-    "precache-manifest.1fcbfaef81a46206165e04128abb5f80.js": "/code-challenge-react/precache-manifest.1fcbfaef81a46206165e04128abb5f80.js",
-    "service-worker.js": "/code-challenge-react/service-worker.js",
-    "static/css/main.07c2af89.chunk.css.map": "/code-challenge-react/static/css/main.07c2af89.chunk.css.map",
-    "static/js/2.4e08c108.chunk.js.LICENSE.txt": "/code-challenge-react/static/js/2.4e08c108.chunk.js.LICENSE.txt"
+    "main.css": "/radio-streamer-w--react/static/css/main.07c2af89.chunk.css",
+    "main.js": "/radio-streamer-w--react/static/js/main.4faba915.chunk.js",
+    "main.js.map": "/radio-streamer-w--react/static/js/main.4faba915.chunk.js.map",
+    "runtime-main.js": "/radio-streamer-w--react/static/js/runtime-main.df2e4e7f.js",
+    "runtime-main.js.map": "/radio-streamer-w--react/static/js/runtime-main.df2e4e7f.js.map",
+    "static/js/2.4e08c108.chunk.js": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js",
+    "static/js/2.4e08c108.chunk.js.map": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js.map",
+    "index.html": "/radio-streamer-w--react/index.html",
+    "precache-manifest.8ffe798ca2ee445ecd6b96726b03cb30.js": "/radio-streamer-w--react/precache-manifest.8ffe798ca2ee445ecd6b96726b03cb30.js",
+    "service-worker.js": "/radio-streamer-w--react/service-worker.js",
+    "static/css/main.07c2af89.chunk.css.map": "/radio-streamer-w--react/static/css/main.07c2af89.chunk.css.map",
+    "static/js/2.4e08c108.chunk.js.LICENSE.txt": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.729d24c6.js",
+    "static/js/runtime-main.df2e4e7f.js",
     "static/js/2.4e08c108.chunk.js",
     "static/css/main.07c2af89.chunk.css",
     "static/js/main.4faba915.chunk.js"

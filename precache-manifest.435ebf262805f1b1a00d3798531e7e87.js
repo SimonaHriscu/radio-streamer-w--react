@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa14afb56b18c4f6b926e4984cf9126",
+    "revision": "79aa3274477be1aad69f35bb7edb57ae",
     "url": "/radio-streamer-w--react/index.html"
   },
   {
-    "revision": "2453964e21f4a66f0ed6",
-    "url": "/radio-streamer-w--react/static/css/main.07c2af89.chunk.css"
+    "revision": "6998df23d3911a8d5ff3",
+    "url": "/radio-streamer-w--react/static/css/main.4f78c462.chunk.css"
   },
   {
     "revision": "eb332e60fe1ec213f69c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2453964e21f4a66f0ed6",
+    "revision": "6998df23d3911a8d5ff3",
     "url": "/radio-streamer-w--react/static/js/main.4faba915.chunk.js"
   },
   {

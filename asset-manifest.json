@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/radio-streamer-w--react/static/css/main.07c2af89.chunk.css",
+    "main.css": "/radio-streamer-w--react/static/css/main.4f78c462.chunk.css",
     "main.js": "/radio-streamer-w--react/static/js/main.4faba915.chunk.js",
     "main.js.map": "/radio-streamer-w--react/static/js/main.4faba915.chunk.js.map",
     "runtime-main.js": "/radio-streamer-w--react/static/js/runtime-main.df2e4e7f.js",
@@ -8,15 +8,15 @@
     "static/js/2.4e08c108.chunk.js": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js",
     "static/js/2.4e08c108.chunk.js.map": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js.map",
     "index.html": "/radio-streamer-w--react/index.html",
-    "precache-manifest.8ffe798ca2ee445ecd6b96726b03cb30.js": "/radio-streamer-w--react/precache-manifest.8ffe798ca2ee445ecd6b96726b03cb30.js",
+    "precache-manifest.435ebf262805f1b1a00d3798531e7e87.js": "/radio-streamer-w--react/precache-manifest.435ebf262805f1b1a00d3798531e7e87.js",
     "service-worker.js": "/radio-streamer-w--react/service-worker.js",
-    "static/css/main.07c2af89.chunk.css.map": "/radio-streamer-w--react/static/css/main.07c2af89.chunk.css.map",
+    "static/css/main.4f78c462.chunk.css.map": "/radio-streamer-w--react/static/css/main.4f78c462.chunk.css.map",
     "static/js/2.4e08c108.chunk.js.LICENSE.txt": "/radio-streamer-w--react/static/js/2.4e08c108.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.df2e4e7f.js",
     "static/js/2.4e08c108.chunk.js",
-    "static/css/main.07c2af89.chunk.css",
+    "static/css/main.4f78c462.chunk.css",
     "static/js/main.4faba915.chunk.js"
   ]
 }
